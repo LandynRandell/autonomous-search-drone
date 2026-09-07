@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Launch SITL",
+      "type": "shell",
+      "command": "bash",
+      "args": ["${workspaceFolder}/launch_sitl.sh"],
+      "isBackground": true,
+      "presentation": {
+        "panel": "new",
+        "focus": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Open Code Terminal",
+      "type": "shell",
+      "command": "bash",
+      "isBackground": true,
+      "presentation": {
+        "panel": "new",
+        "focus": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Launch Everything",
+      "dependsOn": ["Launch SITL", "Open Code Terminal"],
+      "dependsOrder": "parallel",
+      "problemMatcher": []
+    }
+  ]
+}
