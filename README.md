@@ -18,7 +18,7 @@ Here's the sweep pattern running in SITL simulation:
 Python | pymavlink | ArduCopter
 
 ## Status
-Active
+Paused to continue research with the University of South Alabama (December 3rd, 2026)
 
 ## Team
 Independent research, currently solo
